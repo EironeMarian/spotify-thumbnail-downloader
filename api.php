@@ -1,3 +1,25 @@
+<head>
+  <meta charset="UTF-8">
+  <title>62</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h1>Spotify <br>Müzik Kapağı İndirici</h1>
+
+</body>
+</html>
+
 <?php 
 $trackurl = $_POST["url"];
 $xurl = "https://open.spotify.com/oembed?url=".$trackurl;
