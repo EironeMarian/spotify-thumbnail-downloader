@@ -1,14 +1,13 @@
 <html lang="" >
 <head>
   <meta charset="UTF-8">
-  <title>62</title>
+  
+  <title>Spotify Thumbnail indir</title>
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="stylesheet" href="./style.css">
-
 </head>
 <body>
-<!-- partial:index.partial.html -->
 <br>
 <br>
 <br>
@@ -24,10 +23,13 @@
 <script src="https://kit.fontawesome.com/d97b87339f.js" crossorigin="anonymous"></script>
 <form method='post' action="api.php">
 <div class="search-box">
-  <input class="search-input" name="url" type="text" placeholder="Search something..">
+  <input class="search-input" name="url" type="text" placeholder="enter spotify track or playlist url">
   <button class="search-btn" type="submit" name="query" ><i class="fas fa-search"></i></button>
 </div>
 </form>
+<!-- You just need to get this field. End -->
+
+  <div class="footer">
 
 </div>
 <!-- partial -->
