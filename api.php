@@ -16,6 +16,7 @@
 </html>
 
 <?php 
+if(isset($_POST["query"]) || trim($_POST["query"]) != ""){
 $trackurl = $_POST["url"];
 $xurl = "https://open.spotify.com/oembed?url=".$trackurl;
 $kaynak = file_get_contents($xurl);
@@ -27,6 +28,7 @@ echo "<img src='$cikolata' >";
 echo "<br>";
 echo "<br>";
 echo "<br>";
-echo "<a href='$cikolata' class='download-btn' download>Resim Dosyasını İndir</a>";
-
+echo "<a href='$cikolata' class='download-btn' download>Resim Dosyasını İndir</a>";}
+else{
+echo "error";}
 ?>
