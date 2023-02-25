@@ -78,11 +78,15 @@ h1 {
   color:#000;
 }
 
-.footer a {
-  color: #fff;
-  transition: all .4s;
+.download-btn{
+    background-color: DodgerBlue;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius:5px;
 }
 
-.footer a:hover {
-  color: #eaeaeb;
-}
+.download-btn:hover {
+    background-color: RoyalBlue;
+ }
