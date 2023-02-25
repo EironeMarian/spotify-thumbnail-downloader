@@ -28,9 +28,6 @@
   <button class="search-btn" type="submit" name="query" ><i class="fas fa-search"></i></button>
 </div>
 </form>
-<!-- You just need to get this field. End -->
-
-  <div class="footer">
 
 </div>
 <!-- partial -->
